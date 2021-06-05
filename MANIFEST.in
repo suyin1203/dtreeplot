@@ -1,0 +1,8 @@
+include *.txt  #包含根目录下的所有txt文件
+include js/d3.v6.min.js  
+include js/plotter.js
+recursive-include js *.js
+
+include dtreeplot/js/d3.v6.min.js  
+include dtreeplot/js/plotter.js
+recursive-include dtreeplot/js *.js

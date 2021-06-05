@@ -24,11 +24,13 @@ model = clf.fit(X, y)
 model_plot(model, features, labels=y, height=530)
 ```
 
-![image-20210605204143475](/Users/suyin/Library/Application Support/typora-user-images/image-20210605204143475.png)
+![image-20210605204143475](https://raw.githubusercontent.com/suyin1203/dtreeplot/main/images/model_plot_001.png)
 
 
 
-#### install
+
+
+#### Install
 
 ```
 pip3 install dtreeplot

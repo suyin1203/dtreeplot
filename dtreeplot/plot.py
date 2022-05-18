@@ -95,10 +95,11 @@ def _plot_tree(tree, features, labels) -> str:
     plotter_js_path = os.path.join(folder, 'js/plotter.js')
 
     # print(plotter_js_path)
+    # with open(plotter_js_path) as f:
+    #     plotter_js_content = f.read()
 
-    with open(plotter_js_path) as f:
+    with open(plotter_js_path, 'r', encoding='utf-8') as f:
         plotter_js_content = f.read()
-
 
     container_id = "tree_plot_contid_" + uuid.uuid4().hex
 
